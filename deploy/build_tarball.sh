@@ -50,9 +50,6 @@ cd ..
 cp ./Python-2.7.14.tar.xz ./${WORK_DIRECTORY}/
 cp ./get-pip.py ./${WORK_DIRECTORY}/
 
-# Add pm2 process manager
-cp ./pm2-2.9.1.tar.gz ./${WORK_DIRECTORY}/
-
 # Make tarball
 tar -cvzf "${TARBALL_FILE}" "${WORK_DIRECTORY}"/
 
